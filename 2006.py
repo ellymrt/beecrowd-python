@@ -1,0 +1,9 @@
+tipo_cha = int(input(""))
+a, b, c, d, e = input().split(" ")
+a = int(a)
+b = int(b)
+c = int(c)
+d = int(d)
+e = int(e)
+respostas = [a,b,c,d,e]
+print(respostas.count(tipo_cha))
